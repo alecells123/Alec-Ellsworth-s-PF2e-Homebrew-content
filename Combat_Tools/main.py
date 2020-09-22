@@ -1,4 +1,6 @@
-import random, handler
+import random, handler, display
+
+# win_0 = Combat Calculator
 
 obj = handler.Handler()
-print(obj.get_state())
+display.display_win("win_0")
